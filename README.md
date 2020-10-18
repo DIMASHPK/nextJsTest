@@ -2,7 +2,7 @@
 
 First, install all packeges 
 
-``bash
+```bash
 npm i 
 
 Then run the development server:
