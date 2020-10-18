@@ -1,0 +1,86 @@
+.allPostsSection{
+    min-height: 50vh;
+    height: unset;
+    padding-bottom: 50px;
+}
+
+.postsListTitle {
+    margin: 0 0 50px;
+    padding: 20px 0 0;
+    color: #fff;
+    text-align: center;
+}
+
+.postsListTabHeadersWrap {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border-bottom: 1px solid #c1b9ae;
+    border-top: 1px solid #c1b9ae;
+    width: 70%;
+    margin: auto;
+    border-left: 1px solid #c1b9ae;
+    border-right: 1px solid #c1b9ae;
+}
+
+.postsListTabHeadersWrap > span:first-of-type {
+    width: 5%;
+}
+
+.postsListTabHeadersWrap > span {
+    width: calc(95% / 2);
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    border-right: 1px solid #c1b9ae;
+    padding: 3px 0;
+    text-transform: uppercase;
+}
+
+.postsListTabHeadersWrap > span:last-of-type {
+    border-right: none;
+}
+
+.postsList {
+    list-style-type: none;
+    padding: 0;
+    width: 70%;
+    margin: auto;
+    border-left: 1px solid #c1b9ae;
+    border-right: 1px solid #c1b9ae;
+}
+
+.postsList li {
+    border-bottom: 1px solid #c1b9ae;
+    border-top: 1px solid #c1b9ae;
+}
+
+.postsList li a {
+    display: flex;
+    align-items: center;
+}
+
+.postsList li a > span {
+    padding: 3px 20px;
+    width: calc(95% / 2);
+    text-align: center;
+    border-right: 1px solid #c1b9ae;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.postsList li a > span:first-of-type {
+    width: 5%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.postsList li a > span:last-of-type {
+    border-right: none;
+}
+
+.postsList li a:hover span {
+    color: #006064;
+}
